@@ -23,6 +23,9 @@ A **CQRS-based ASP.NET Core Web API** for supporting the new Invite Friends feat
 ### **Clone the Repository**
 ```sh
 git clone https://github.com/jameskite/CartonCaps.Referral.Api.git
+```
+### **Navigate to Project Folder**
+```sh
 cd CartonCaps.Referral.Api
 ```
 ### **Run the API**
@@ -40,7 +43,7 @@ https://localhost:5001/swagger/v1/swagger.json
 ```
 ---
 ## **Testing**
-Run unit test
+Run unit test from main solution folder
 ```sh
 dotnet test
 ```
