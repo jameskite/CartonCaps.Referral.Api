@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CartonCaps.Referral.Api.Application\CartonCaps.Referral.Api.Application.csproj" />
+    <ProjectReference Include="..\CartonCaps.Referral.Api.Contracts\CartonCaps.Referral.Api.Contracts.csproj" />
+    <ProjectReference Include="..\CartonCaps.Referral.Infrastructure\CartonCaps.Referral.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
